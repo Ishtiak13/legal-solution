@@ -1,18 +1,9 @@
-.primary-font {
-  font-family: "EB Garamond", serif;
-}
-.secondary-font {
-  font-family: "Poppins", serif;
-}
-.button {
-  background-color: #b68c5a;
-  color: white;
-}
-input::placeholder {
-  font-family: "Poppins", serif;
-  opacity: 0.5;
-}
-input:focus,
-input {
-  font-family: "Poppins", serif;
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-primary: "Poppins", serif;
+  --font-secondary: "EB Garamond";
+  --text-primary: 2.3rem;
+  /* ... */
 }
