@@ -1,9 +1,0 @@
-@import "tailwindcss";
-@plugin "daisyui";
-
-@theme {
-  --font-primary: "Poppins", serif;
-  --font-secondary: "EB Garamond";
-  --text-primary: 2.3rem;
-  /* ... */
-}
