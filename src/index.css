@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.primary-font {
+  font-family: "EB Garamond", serif;
+}
+.secondary-font {
+  font-family: "Poppins", serif;
+}
+.button {
+  background-color: #b68c5a;
+  color: white;
+}
+input::placeholder {
+  font-family: "Poppins", serif;
+  opacity: 0.5;
+}
+input:focus,
+input {
+  font-family: "Poppins", serif;
+}
